@@ -1,0 +1,25 @@
+{
+    "canisters": {
+      "voucher_canister": {
+        "type": "motoko",
+        "source": ["src/canisters/voucher_canister.mo"],
+        "dependencies": [],
+        "exports": []
+      },
+      "transaction_canister": {
+        "type": "motoko",
+        "source": ["src/canisters/transaction_canister.mo"],
+        "dependencies": [],
+        "exports": []
+      }
+    },
+    "dfx_version": "0.12.1",
+    "network": "local",
+    "defaults": {
+      "build": {
+        "packtool": "dfx"
+      }
+    },
+    "version": 1
+  }
+  
